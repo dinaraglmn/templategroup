@@ -5,3 +5,43 @@
     list-style: none;
     text-decoration: none;
 }
+.footer{
+    display: flex;
+padding: 40px 195px;
+
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+background: #3B3B3B;
+}
+.footer_nft,.footer__explore,.footer__join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icons{
+    padding-top: 15px;
+    display: flex;
+
+}
+.icons i{
+    padding-right: 10px;
+}
+.jj{
+    padding-top: 20px;
+    display: flex;
+}
+.ff{
+    display: flex;
+    align-items: center;
+}
+.footer_nft p{
+    padding-top: 30px;
+}
+.footer__explore p{
+    padding-top: 25px;
+}
+.footer__join p{
+    padding-top: 25px;
+    width: 260px;
+}

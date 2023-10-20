@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: var(--Background, #2B2B2B);
+}
+.creators ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+li a {
+    padding: 10px 30px;
+}
+li a:hover{
+    border-bottom: 2px solid #858584;
+   
+}
+@media only screen and (max-width: 530px){
+    li a {
+        padding: 3px 10px;
+    }
+    li a:hover{
+        border-bottom: 2px solid #858584;
+       
+    }
+}
+@media only screen and (max-width: 370px){
+    li a {
+        padding: 2px 5px;
+        font-size: 12px;
+    }
+    li a:hover{
+        border-bottom: 2px solid #858584;
+       
+    }
+}

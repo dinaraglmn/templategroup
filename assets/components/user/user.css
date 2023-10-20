@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  background: var(--Background, #2B2B2B);
+}
+.user a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.user img{
+  padding: 5px;
+  width: 3%;
+  height:3%;
+}
+@media only screen and (max-width: 850px){
+  .user a{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    
+  }
+  .user img{
+    padding: 4px;
+    width:5%; 
+    height: 5%;
+  }
+}
+@media only screen and (max-width: 375px){
+  .user a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+  }
+  .user img{
+    padding: 3px;
+    width: 6%; 
+    height: 6%;
+  }
+}

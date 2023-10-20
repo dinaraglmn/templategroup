@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--Background, #2B2B2B);
+}
+.create_account img{
+    width: 45%;
+    height: 700px;
+    
+}
+@media only screen and (max-width: 850px){
+    .create_account img{
+        width: 50%;
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 375px){
+    .create_account img{
+        width: 100%;
+        height: 60vh;
+    }
+}
